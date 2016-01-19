@@ -30,10 +30,5 @@ http://moodle.data.alpha.jisc.ac.uk/mod/resource/view.php?id=7
 http://moodle.data.alpha.jisc.ac.uk/mod/forum/view.php?id=4
 
 ###A7
-11.59 Viewed Dicussion
-
-http://moodle.data.alpha.jisc.ac.uk/mod/forum/discuss.php?d=1
-
-###A9 [event](A9.js)
 
 12:00 Logged out
