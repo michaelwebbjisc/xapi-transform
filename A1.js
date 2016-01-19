@@ -1,6 +1,6 @@
 {  
    "actor":{  
-      "name":"3",
+      "name":"Not stored in historic data",
       "account":{  
          "homePage":"http://moodle.data.alpha.jisc.ac.uk",
          "name":"3"
@@ -12,7 +12,7 @@
       "extensions":{  
          "http://lrs.learninglocker.net/define/extensions/moodle_logstore_standard_log":{  
             "eventname":"\\core\\event\\user_loggedin",
-            "timecreated":"2016-01-19 11:59:00+00:00",
+            "timecreated":"2016-01-19T11:59:00+00:00",
             "courseid":"0"
          },
          "http://lrs.learninglocker.net/define/extensions/info":"University of Jisc Moodle"
@@ -22,7 +22,7 @@
             {  
                "id":"http://moodle.data.alpha.jisc.ac.uk/",
                "definition":{  
-                  "type":"http://lrs.learninglocker.net/define/type/moodle/loggedin",
+                  "type":"http://lrs.learninglocker.net/define/type/moodle/user",
                   "name":{  
                      "en":"University of Jisc Moodle"
                   },
@@ -34,7 +34,7 @@
          ]
       }
    },
-   "timestamp":"1969-12-31T16:33:36-08:00",
+   "timestamp":"2016-01-19T11:59:00+00:00",
    "verb":{  
       "id":"https://brindlewaye.com/xAPITerms/verbs/loggedin/",
       "display":{  
@@ -44,7 +44,7 @@
    "object":{  
       "id":"http://moodle.data.alpha.jisc.ac.uk/",
       "definition":{  
-         "type":"http://lrs.learninglocker.net/define/type/moodle/loggedin",
+         "type":"http://lrs.learninglocker.net/define/type/moodle/user",
          "name":{  
             "en":"University of Jisc Moodle"
          },
