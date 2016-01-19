@@ -9,9 +9,9 @@
         }
     },
     "verb": {
-        "id": "http://id.tincanapi.com/verb/viewed",
+        "id": "https://brindlewaye.com/xAPITerms/verbs/loggedout/",
         "display": {
-            "en": "viewed"
+            "en": "logged out of"
         }
     },
     "context": {
@@ -29,32 +29,6 @@
                             "en": "A Moodle course"
                         }
                     }
-                },
-                {
-                    "objectType": "Activity",
-                    "id": "http://moodle.data.alpha.jisc.ac.uk/course/view.php?id=3",
-                    "definition": {
-                        "type": "http://lrs.learninglocker.net/define/type/moodle/course",
-                        "name": {
-                            "en": "D101 Demo Course"
-                        },
-                        "description": {
-                            "en": "A Moodle course"
-                        }
-                    }
-                },
-                {
-                    "objectType": "Activity",
-                    "id": "http://moodle.data.alpha.jisc.ac.uk/mod/forum/view.php?id=4",
-                    "definition": {
-                        "type": "http://lrs.learninglocker.net/define/type/moodle/forum",
-                        "name": {
-                            "en": "Demo Forum"
-                        },
-                        "description": {
-                            "en": "<p>A demo forum for XAPI</p>"
-                        }
-                    }
                 }
             ]
         },
@@ -62,23 +36,20 @@
         "language": "en",
         "extensions": {
             "http://lrs.learninglocker.net/define/extensions/moodle_logstore_standard_log": {
-                "eventname": "\\mod_forum\\event\\discussion_viewed",
-                "component": "mod_forum",
-                "action": "viewed",
-                "objecttable": "forum_discussions",
-                "objectid": "1",
+                "eventname": "\\core\\event\\user_loggedout",
+                "component": "core",
+                "action": "loggedout",
+                "objecttable": "user",
+                "objectid": "3",
                 "crud": "r",
-                "edulevel": 2,
-                "contextid": 32,
-                "contextlevel": 70,
-                "contextinstanceid": "4",
+                "contextid": 1,
+                "contextlevel": 10,
                 "userid": "3",
-                "courseid": "3",
-                "other": "N;",
-                "timecreated": 1453204900,
+                "other": "a:1:{s:9:\"sessionid\";s:26:\"74v3jdh5ld2ps3eaearq3re7j5\";}",
+                "timecreated": 1453205044,
                 "origin": "web",
                 "ip": "86.156.130.212",
-                "object": "discussion"
+                "object": "user"
             },
             "http://lrs.learninglocker.net/define/extensions/info": {
                 "https://moodle.org/": "2.8.9+ (Build: 20151110)",
@@ -88,17 +59,17 @@
             }
         }
     },
-    "timestamp": "2016-01-19T12:01:40+00:00",
+    "timestamp": "2016-01-19T12:04:04+00:00",
     "object": {
         "objectType": "Activity",
-        "id": "http://moodle.data.alpha.jisc.ac.uk/mod/forum/discuss.php?d=1",
+        "id": "http://moodle.data.alpha.jisc.ac.uk/course/view.php?id=1",
         "definition": {
-            "type": "http://lrs.learninglocker.net/define/type/moodle/forum_discussions",
+            "type": "http://lrs.learninglocker.net/define/type/moodle/course",
             "name": {
-                "en": "New discussion"
+                "en": "University of Jisc Moodle"
             },
             "description": {
-                "en": "A Moodle discussion."
+                "en": "A Moodle course"
             }
         }
     },
@@ -107,6 +78,6 @@
         "name": "Moodle",
         "mbox": "mailto:hello@learninglocker.net"
     },
-    "stored": "2016-01-19T11:58:18.006200+00:00",
-    "id": "1ddfa8da-0a97-4257-9b07-b0419a49d5c2"
+    "stored": "2016-01-19T12:00:41.884500+00:00",
+    "id": "6b41a5ea-b6bd-415d-aeb7-b8c11c42ec98"
 }
