@@ -2,7 +2,7 @@
    "actor":{  
       "name":"3",
       "account":{  
-         "homePage":"https://courses.alpha.jisc.ac.uk/moodle",
+         "homePage":"http://moodle.data.alpha.jisc.ac.uk",
          "name":"3"
       }
    },
@@ -20,7 +20,7 @@
       "contextActivities":{  
          "grouping":[  
             {  
-               "id":"https://courses.alpha.jisc.ac.uk/",
+               "id":"http://moodle.data.alpha.jisc.ac.uk/",
                "definition":{  
                   "type":"http://lrs.learninglocker.net/define/type/moodle/loggedin",
                   "name":{  
@@ -42,7 +42,7 @@
       }
    },
    "object":{  
-      "id":"https://courses.alpha.jisc.ac.uk/",
+      "id":"http://moodle.data.alpha.jisc.ac.uk/",
       "definition":{  
          "type":"http://lrs.learninglocker.net/define/type/moodle/loggedin",
          "name":{  
@@ -54,4 +54,3 @@
       }
    }
 },
-
