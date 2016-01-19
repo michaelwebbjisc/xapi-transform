@@ -1,6 +1,6 @@
 {  
    "actor":{  
-      "name":"3",
+      "name":"Not stored in historic data",
       "account":{  
          "homePage":"http://moodle.data.alpha.jisc.ac.uk",
          "name":"3"
@@ -13,7 +13,7 @@
          "http://lrs.learninglocker.net/define/extensions/moodle_logstore_standard_log":{  
             "eventname":"\\core\\event\\course_viewed",
             "timecreated":"2016-01-19 11:59:08+00:00",
-            "courseid":"0"
+            "courseid":"3"
          },
          "http://lrs.learninglocker.net/define/extensions/info":"University of Jisc Moodle"
       },
@@ -34,7 +34,7 @@
          ]
       }
    },
-   "timestamp":"1969-12-31T16:33:36-08:00",
+   "timestamp":"2016-01-19 11:59:08+00:00",
    "verb":{  
       "id":"http://id.tincanapi.com/verb/viewed",
       "display":{  
@@ -46,10 +46,10 @@
       "definition":{  
          "type":"http://lrs.learninglocker.net/define/type/moodle/",
          "name":{  
-            "en":"'viewed'"
+            "en":"Not stored in historic data"
          },
          "description":{  
-            "en":"'viewed'"
+            "en":"Not stored in historic data"
          }
       }
    }
