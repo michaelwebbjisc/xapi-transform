@@ -12,7 +12,7 @@
       "extensions":{  
          "http://lrs.learninglocker.net/define/extensions/moodle_logstore_standard_log":{  
             "eventname":"\\core\\event\\course_viewed",
-            "timecreated":"2016-01-19 11:59:00+00:00",
+            "timecreated":"2016-01-19 11:59:08+00:00",
             "courseid":"0"
          },
          "http://lrs.learninglocker.net/define/extensions/info":"University of Jisc Moodle"
@@ -42,7 +42,7 @@
       }
    },
    "object":{  
-      "id":"http://moodle.data.alpha.jisc.ac.uk/'core'/view.php?id=50",
+      "id":"http://moodle.data.alpha.jisc.ac.uk/course/view.php?id=3",
       "definition":{  
          "type":"http://lrs.learninglocker.net/define/type/moodle/",
          "name":{  
